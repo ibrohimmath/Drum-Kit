@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="buttons">
+    <div data-key="65" class="button">
+      <span class="button button__main">a</span>
+      <span class="button button__desc">clap</span>
+    </div>
+    <div data-key="83" class="button">
+      <span class="button button__main">s</span>
+      <span class="button button__desc">hihat</span>
+    </div>
+    <div data-key="68" class="button">
+      <span class="button button__main">d</span>
+      <span class="button button__desc">kick</span>
+    </div>
+    <div data-key="70" class="button">
+      <span class="button button__main">f</span>
+      <span class="button button__desc">openhat</span>
+    </div>
+    <div data-key="71" class="button">
+      <span class="button button__main">g</span>
+      <span class="button button__desc">boom</span>
+    </div>
+    <div data-key="72" class="button">
+      <span class="button button__main">h</span>
+      <span class="button button__desc">ride</span>
+    </div>
+    <div data-key="74" class="button">
+      <span class="button button__main">j</span>
+      <span class="button button__desc">snare</span>
+    </div>
+    <div data-key="75" class="button">
+      <span class="button button__main">k</span>
+      <span class="button button__desc">tom</span>
+    </div>
+    <div data-key="76" class="button">
+      <span class="button button__main">l</span>
+      <span class="button button__desc">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65">
+    <source src="./sounds/clap.wav" type="audio/wav">
+  </audio>
+  <audio data-key="83">
+    <source src="./sounds/hihat.wav" type="audio/wav">
+  </audio>
+  <audio data-key="68">
+    <source src="./sounds/kick.wav" type="audio/wav">
+  </audio>
+
+  <audio data-key="70">
+    <source src="./sounds/openhat.wav" type="audio/wav">
+  </audio>
+  <audio data-key="71">
+    <source src="./sounds/boom.wav" type="audio/wav">
+  </audio>
+  <audio data-key="72">
+    <source src="./sounds/ride.wav" type="audio/wav">
+  </audio>
+  
+  <audio data-key="74">
+    <source src="./sounds/snare.wav" type="audio/wav">
+  </audio>
+  <audio data-key="75">
+    <source src="./sounds/tom.wav" type="audio/wav">
+  </audio>
+  <audio data-key="76">
+    <source src="./sounds/tink.wav" type="audio/wav">
+  </audio>
+</body>
+</html>
